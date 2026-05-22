@@ -1,0 +1,82 @@
+```gitignore
+# =========================
+# Build
+# =========================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Rider / JetBrains
+# =========================
+.idea/
+*.sln.iml
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Arquivos temporários
+# =========================
+*.tmp
+*.temp
+*.cache
+
+# =========================
+# Configurações locais
+# =========================
+appsettings.Development.json
+secrets.json
+
+# =========================
+# Publicação
+# =========================
+publish/
+wwwroot/uploads/
+
+# =========================
+# Entity Framework
+# =========================
+*.db
+*.db-shm
+*.db-wal
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Pacotes
+# =========================
+node_modules/
+
+# =========================
+# Certificados HTTPS locais
+# =========================
+*.pfx
+
+# =========================
+# Arquivos do sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testes
+# =========================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
